@@ -53,7 +53,7 @@ Required Packages:
 
 
 ```
-git clone https://github.com/davidsosa/radar-target-generation-and-detection.git
+
 ```
 
 Install Octave and Required Packages for Control and Signal Processing Toolboxes
@@ -86,7 +86,7 @@ pkg install -forge signal
 
 ## User Defined Range and Velocity of target
 
-https://github.com/davidsosa/radar-target-generation-and-detection/blob/master/radar-target-generation-and-detection.m#L19
+
 
 We define the target's initial position and velocity. Note: velocity remains constant
 
@@ -99,7 +99,6 @@ max_vel = 100 % m/s
 ```
 
 ## FMCW Waveform Generation
-https://github.com/davidsosa/radar-target-generation-and-detection/blob/master/radar-target-generation-and-detection.m#L30
 
 ```{.codeinput}
 % Design the FMCW waveform by giving the specs of each of its parameters.
@@ -141,7 +140,7 @@ td = zeros(1, length(t));
 
 ## Signal generation and Moving Target simulation
 
-https://github.com/davidsosa/radar-target-generation-and-detection/blob/master/radar-target-generation-and-detection.m#L61
+
 
 Running the radar scenario over the time.
 
@@ -167,7 +166,7 @@ end
 ```
 
 ## RANGE MEASUREMENT
-https://github.com/davidsosa/radar-target-generation-and-detection/blob/master/radar-target-generation-and-detection.m#L82
+
 
 ```{.codeinput}
 %reshape the vector into Nr*Nd array. Nr and Nd here would also define the size of

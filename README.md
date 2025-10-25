@@ -1,4 +1,5 @@
-# Matched-filtering 
+# Radar target generation and detection
+
 ## Introduction
 
 This project simulates a Frequency-Modulated Continuous Wave (FMCW) radar system for target detection. FMCW radar is a type of radar system that continuously transmits a signal whose frequency changes over time, typically in a sweep pattern. By analyzing the frequency difference between the transmitted and received signals, FMCW radar can determine both the range and velocity of targets.
